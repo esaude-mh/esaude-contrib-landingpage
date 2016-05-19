@@ -1,0 +1,130 @@
+/**
+ * The contents of this file are subject to the OpenMRS Public License
+ * Version 1.0 (the "License"); you may not use this file except in
+ * compliance with the License. You may obtain a copy of the License at
+ * http://license.openmrs.org
+ * Software distributed under the License is distributed on an "AS IS"
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+ * License for the specific language governing rights and limitations
+ * under the License.
+ * Copyright (C) OpenMRS, LLC.  All Rights Reserved.
+ */
+@import url("../../node_modules/animate.css/animate.css");
+
+html, body {
+  background-color: #ffffff;
+  background-image: url("../img/circles.png");
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  color: #444444;
+}
+
+div {
+  display: flex;
+}
+
+.title-container {
+  min-height: 72px;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description-container {
+  min-height: 200px;
+  width: 100%;
+  justify-content: center;
+}
+
+.description {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.credential-label {
+  margin: 5px;
+}
+
+.credential-value {
+  font-weight: bold;
+  margin: 5px;
+}
+
+.credential {
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.credentials {
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-row {
+  flex-direction: row;
+}
+
+table {
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.img-circle {
+    margin: 70px;
+    -webkit-filter: grayscale(100%) blur(2px);
+    filter: grayscale(100%) blur(2px);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /*-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.8);
+   -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.8); */
+   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.8);
+   transition: 0.5s;
+}
+
+.img-circle:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #29d;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}

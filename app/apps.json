@@ -1,0 +1,37 @@
+{
+  "apps": [
+    {
+      "id": 1,
+      "title": "iBLIS",
+      "description": "iLab Africa iBLIS Laboratory Information System",
+      "url": "https://iblis.esaude.org/",
+      "icon": "img/lab.png",
+      "credentials": {
+        "username": "administrator",
+        "password": "password"
+      }
+    },
+    {
+      "id": 2,
+      "title": "POC",
+      "description": "eSaude EMR Point of Care Application",
+      "url": "https://test.esaude.org/home",
+      "icon": "img/poc.png",
+      "credentials": {
+        "username": "admin",
+        "password": "Admin123"
+      }
+    },
+    {
+      "id": 3,
+      "title": "RDE",
+      "description": "eSaude EMR Retrospective Data Entry Application",
+      "url": "https://test.esaude.org/openmrs",
+      "icon": "img/rde.png",
+      "credentials": {
+        "username": "admin",
+        "password": "Admin123"
+      }
+    }
+  ]
+}
